@@ -20,13 +20,13 @@ Below is an example execution of the package usage:
 The result of the above execution is as shown below:
 ![PackageResult-2.png](Readmefiles/PackageResult.png)
 
-Outputs of the different formats:
+Output for the different formats:
 
-![PNG](Readmefiles/RadarChart.jpg)
+![PNG](Readmefiles/RadarChart.JPG)
 
 ![JPG](Readmefiles/Radarchart.png)
 
-![PNG](Readmefiles/JSON.png)
+![JSON](Readmefiles/JSON.JPG)
 
 ## Project status
 The project is currently in test phase.
