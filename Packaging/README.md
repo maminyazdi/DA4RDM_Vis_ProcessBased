@@ -1,7 +1,7 @@
 # da4rdm-vis
 
 ## Description
-The da4rdm-vis is a python package that allows extracting correlation information in relation to the different phases of Research Development Life Cycle process. The package primarily provides the vizualization of the different correlation values for the different RDLC phases as obtained for a given Project Id and other related arguments. 
+The da4rdm-vis is a python package that allows extracting correlation information in relation to the different phases of Research Development Life Cycle process. The package primarily provides the vizualization of the different correlation values for the different RDLC phases as obtained for a given Project Id and other related arguments.
 
 
 ## Installation
@@ -36,4 +36,4 @@ Below are the saved visualization for the different formats:
 ![JSON](SampleData/JSON.JPG)
 
 ## Project status
-The project is currently in test phase.s
+The project is currently in test phase.
