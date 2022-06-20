@@ -21,6 +21,8 @@ The result of the above execution is as shown below:
 ![image-2.png](./image-2.png)
 
 Outputs of the different formats:
+![My animated logo](Readmefiles/Radarchart.png)
+
 <p align="center">
   <img src="https://git.rwth-aachen.de/da4rdm/da4rdm-vis/-/blob/da4rdm-vis-Package-TestPyPi/Packaging/Readmefiles/Radarchart.png" width="350" title="hover text">
 </p>
