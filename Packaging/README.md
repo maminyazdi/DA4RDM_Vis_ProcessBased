@@ -14,26 +14,26 @@ The package has two major functionalities as listed below:
 1. Extracting project information in the form of correlation response wherein a dataframe is returned consisting of the correlation values corresponding to each RDLC phase. 
 To use the package for retreiving correlation values as a dataframe the function called eval_corr within the module Evaluate can be used. The function eval_corr accepts two required positional arguments namely the datapath for the event log and the Project Id. Other optional arguments included start and end date, path for the operational data json file that will be used for building the operational and RDLC phase identifier, the evaluation feature and type to be used for calculating the similarity. The operation data file needs to be created with the format as shown below.
 
-![PNG](Readmefiles/OperationData.JPG)
+![PNG](SampleData/OperationData.JPG)
 
 2. Creating the vizualization of the correlation response from the dataframe retreived using the eval_corr function. To get a vizualization the visualize function within the module Vizualize can be used. This function accepts a dataframe as a required parameter and provides relevant visualizazion as per the choice provided by the user. The various formats supported are jpeg, png, pdf and json. The generated files are saved onto the local repository of the program using the package.
 
 Below is an example execution of the package usage:
-![PackageUsage-1.png](Readmefiles/PackageUsage.png)
+![PackageUsage-1.png](SampleData/PackageUsage.png)
 
 The result of the above execution is as shown below:
-![PackageResult-2.png](Readmefiles/PackageResult.png)
+![PackageResult-2.png](SampleData/PackageResult.png)
 
 Output for the different formats:
 1. Saving as a .JPG file
 2. Saving as a .png file
 3. Saving as a .JSON file
 
-![PNG](Readmefiles/RadarChart.JPG)
+![PNG](SampleData/RadarChart.JPG)
 
-![JPG](Readmefiles/Radarchart.png)
+![JPG](SampleData/Radarchart.png)
 
-![JSON](Readmefiles/JSON.JPG)
+![JSON](SampleData/JSON.JPG)
 
 ## Project status
 The project is currently in test phase.
