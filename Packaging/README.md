@@ -5,9 +5,11 @@ The da4rdm-vis is a python package that allows extracting correlation informatio
 
 
 ## Installation
-The package uses Python as a programming language and utilizes basic python packages. Noteworthy, it uses few visualization pckages like plotly express and kaleido.
+The package is built using Python as a programming language and utilizes basic python packages. Noteworthy, it uses few visualization pckages like plotly express and kaleido. Other used packages include scipy, json etc. The package can be installed using the below pip command.
 
-## Usage
+pip install -i https://test.pypi.org/simple/ da4rdm-vis
+
+## Usage and Examples
 The package has two major functionalities as listed below:
 1. Extracting project information in the form of correlation response wherein a dataframe is returned consisting of the correlation values corresponding to each RDLC phase. 
 To use the package for retreiving correlation values as a dataframe the function called eval_corr within the module Evaluate can be used. The function eval_corr accepts two required positional arguments namely the datapath for the event log and the Project Id. Other optional arguments included start and end date, path for the operational data json file used for building the operational and RDLC phase identifier, the evaluation feature and type to be used for calculating the similarity.
@@ -21,11 +23,13 @@ The result of the above execution is as shown below:
 ![PackageResult-2.png](Readmefiles/PackageResult.png)
 
 Output for the different formats:
-
+1. Saving as a .JPG file
 ![PNG](Readmefiles/RadarChart.JPG)
 
+2. Saving as a .png file
 ![JPG](Readmefiles/Radarchart.png)
 
+3. Saving as a .JSON file
 ![JSON](Readmefiles/JSON.JPG)
 
 ## Project status
