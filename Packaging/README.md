@@ -21,9 +21,9 @@ The result of the above execution is as shown below:
 ![image-2.png](./image-2.png)
 
 Outputs of the different formats:
-![Radarchart.png](./Radarchart.png)
-![RadarChart.JPG](./RadarChart.JPG)
-![image-4.png](./image-4.png)
+<p align="center">
+  <img src="https://git.rwth-aachen.de/da4rdm/da4rdm-vis/-/blob/da4rdm-vis-Package-TestPyPi/Packaging/Readmefiles/Radarchart.png" width="350" title="hover text">
+</p>
 
 ## Project status
 The project is currently in test phase.
