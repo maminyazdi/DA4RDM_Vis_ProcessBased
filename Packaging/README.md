@@ -24,10 +24,10 @@ Below is an example execution of the package usage:
 The result of the above execution is as shown below:
 ![PackageResult-2.png](SampleData/PackageResult.png)
 
-Output for the different formats:
-1. Saving as a .JPG file
-2. Saving as a .png file
-3. Saving as a .JSON file
+Below are the saved visualization for the different formats:
+1. Specified format is JPG
+2. Specified format is png
+3. Specified format is JSON
 
 ![PNG](SampleData/RadarChart.JPG)
 
@@ -36,4 +36,4 @@ Output for the different formats:
 ![JSON](SampleData/JSON.JPG)
 
 ## Project status
-The project is currently in test phase.
+The project is currently in test phase.s
