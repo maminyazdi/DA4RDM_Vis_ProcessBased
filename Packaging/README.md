@@ -5,7 +5,7 @@ The da4rdm-vis is a python package that allows extracting correlation informatio
 
 
 ## Installation
-The package is built using Python as a programming language and utilizes basic python packages. Noteworthy, it uses few visualization pckages like plotly express and kaleido. Other used packages include scipy, json etc. The package can be installed using the below pip command.
+The package is built using Python as a programming language and utilizes basic python packages. Noteworthy, it uses few visualization packages like plotly express and kaleido. Other used packages include scipy, json etc. The test package can be installed using the below pip command.
 
 pip install -i https://test.pypi.org/simple/ da4rdm-vis
 
