@@ -24,12 +24,13 @@ The result of the above execution is as shown below:
 
 Output for the different formats:
 1. Saving as a .JPG file
+2. Saving as a .png file
+3. Saving as a .JSON file
+
 ![PNG](Readmefiles/RadarChart.JPG)
 
-2. Saving as a .png file
 ![JPG](Readmefiles/Radarchart.png)
 
-3. Saving as a .JSON file
 ![JSON](Readmefiles/JSON.JPG)
 
 ## Project status
