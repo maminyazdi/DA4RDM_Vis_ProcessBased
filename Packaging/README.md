@@ -15,17 +15,18 @@ To use the package for retreiving correlation values as a dataframe the function
 2. Creating the vizualization of the correlation response from the dataframe retreived using the eval_corr function. To get a vizualization the visualize function within the module Vizualize can be used. This function accepts a dataframe as a required parameter and provides relevant visualizazion as per the choice provided by the user. The various formats supported are jpeg, png, pdf and json. The generated files are saved onto the local repository of the program using the package.
 
 Below is an example execution of the package usage:
-![image-1.png](./image-1.png)
+![PackageUsage-1.png](Readmefiles/PackageUsage.png)
 
 The result of the above execution is as shown below:
-![image-2.png](./image-2.png)
+![PackageResult-2.png](Readmefiles/PackageResult.png)
 
 Outputs of the different formats:
-![My animated logo](Readmefiles/Radarchart.png)
 
-<p align="center">
-  <img src="https://git.rwth-aachen.de/da4rdm/da4rdm-vis/-/blob/da4rdm-vis-Package-TestPyPi/Packaging/Readmefiles/Radarchart.png" width="350" title="hover text">
-</p>
+![PNG](Readmefiles/RadarChart.jpg)
+
+![JPG](Readmefiles/Radarchart.png)
+
+![PNG](Readmefiles/JSON.png)
 
 ## Project status
 The project is currently in test phase.
