@@ -14,6 +14,7 @@ The package has one important module **Vizualize**. This modules invokes the nec
 
 ```python
 from DA4RDM_Vis_Processbased import Vizualize
+```
 
 ## Usage
 As mentioned earlier, the package can be used to extract fitness values and plot them for a reference ProjectId. The fitness values corresponding to the different RDLC phase data models is evaluated for a model created for the reference ProjectId. Finally, a vizualization of the same can be generated and the path of the vizualization image file is returned. To use the package for generating the vizualization, the function **process_vis** within the module **Vizualize** should be used. The function body along with parameter information is as shown below:
