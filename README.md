@@ -9,6 +9,7 @@ The package is built using Python as a programming language and utilizes basic p
 
 **pip install DA4RDM_Vis_Processbased**
 
+
 ## Importing the Module 
 The package has one important module **Vizualize**. This modules invokes the necessary functions from other modules that perform the tasks of data extraction, model creation, fitness evaluation and plotting. The module can be imported using the below command:
 
