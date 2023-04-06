@@ -39,9 +39,9 @@ print(path)
 ```
 
 ## Output
-All the above executions invokes the function **process_vis** with the passed parameter values.The fitness values are calculated and returned by the function. Finally, the results received is vizualized and a path is returned for the saved image.
+All the above executions invokes the function **process_vis** with the passed parameter values.The fitness values are calculated and returned by the function. The generated vizualization is saved onto the local repository of the program using the package. Finally a path is returned for the saved image.
 
 ```python
- 
+C:\Users\avina\anaconda3\lib\site-packages\DA4RDM_Vis_ProcessBased\Radarchart.png
 ```
-The generated files are saved onto the local repository of the program using the package.
+
