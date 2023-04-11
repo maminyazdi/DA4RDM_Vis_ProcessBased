@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "DA4RDM_Vis_ProcessBased"
-version = "0.1.5"
+version = "0.1.6"
 description = "Test package to get visualisation for a given projectid as reference analyzed on different RDLC phase process models"
 readme = "README.md"
 classifiers=[
