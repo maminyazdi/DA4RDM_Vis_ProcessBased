@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='DA4RDM_Vis_ProcessBased',
-      version='0.1.5',
+      version='0.1.6',
       description='Test package to get visualisation for a given projectid as reference analyzed '
                   'on different RDLC phase process models',
       long_description=readme(),
