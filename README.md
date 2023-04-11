@@ -43,6 +43,6 @@ print(path)
 All the above executions invokes the function **process_vis** with the passed parameter values. The fitness values are calculated and returned by the function. The radar vizualization is generated and saved onto the local repository of the program using the package. The function finally returns the path for the saved image file as shown below:
 
 ```python
-C:\Users\avina\anaconda3\lib\site-packages\DA4RDM_Vis_ProcessBased\Radarchart.png
+.\Radarchart.png
 ```
 
