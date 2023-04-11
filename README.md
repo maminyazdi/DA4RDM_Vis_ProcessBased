@@ -1,7 +1,7 @@
 # DA4RDM_Vis_Processbased
 
 ## Description
-The DA4RDM_Vis_Processbased is a python based package that can be used to evaluate fitness scores based on process mining alignment algorithm applied on different RDLC phase models.     The package provides a vizualizations of the evaluated scores for the different RDLC phases as obtained for a given Project Id and other related arguments such as start and end timestamps.
+The DA4RDM_Vis_Processbased is a python based package that can be used to evaluate fitness scores for the RDLC phases namely Planning, Production, Analysis, Archival, Access and Reuse for a reference projectid. The fitness scores are evaluated by generating a meaningful log based on the records associated with the reference projectid, converting them into a format accepted by the pm4py process mining algorithm and then evaluating alighment based fitness values by replaying the log on models defined for each RDLC phase separately. The package finally provides a vizualizations of the evaluated fitness scores.
 
 
 ## Installation
@@ -18,7 +18,7 @@ from DA4RDM_Vis_Processbased import Vizualize
 ```
 
 ## Usage
-As mentioned earlier, the package can be used to extract fitness values and plot them for a reference ProjectId. The fitness values corresponding to the different RDLC phase data models is evaluated for a model created for the reference ProjectId. Finally, a vizualization of the same can be generated and the path of the vizualization image file is returned. To use the package for generating the vizualization, the function **process_vis** within the module **Vizualize** should be used. The function body along with parameter information is as shown below:
+As mentioned earlier, the package can be used to extract fitness values and plot them for a reference ProjectId. The fitness value corresponding to the each RDLC phase is evaluated separately by replaying the log extracted for the reference projectid on the predefined model of the respective RDLC phase. The overall process thus evaluates 6 fitness score corresponsing to the previously mentioned RDLC phases. Finally, a vizualization of the same can be generated and the file is saved onto the local disk and the path of the vizualization image file is returned. To use the package for generating the vizualization, the function **process_vis** within the module **Vizualize** should be used. This method is the entry point and invokes the necessary functions that perform the evaluations and render the vizualization. The function body along with parameter information is as shown below:
 
 ```python
 def process_vis(dataset_user_interactions, project_id, earliest_timestamp, last_timestamp):
@@ -40,7 +40,7 @@ print(path)
 ```
 
 ## Output
-All the above executions invokes the function **process_vis** with the passed parameter values.The fitness values are calculated and returned by the function. The generated vizualization is saved onto the local repository of the program using the package. Finally a path is returned for the saved image.
+All the above executions invokes the function **process_vis** with the passed parameter values. The fitness values are calculated and returned by the function. The vizualization is generated and saved onto the local repository of the program using the package. The function finally returns the path for the saved image file as shown below:
 
 ```python
 C:\Users\avina\anaconda3\lib\site-packages\DA4RDM_Vis_ProcessBased\Radarchart.png
