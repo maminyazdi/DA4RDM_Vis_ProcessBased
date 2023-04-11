@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: DA4RDM-Vis-ProcessBased
-Version: 0.1.7
-Summary: Test package to get visualisation for a given projectid as reference analyzed on different RDLC phase process models
+Version: 0.1.8
+Summary: Package to get visualisation of fitness values corresponding to RDLC phases for a reference projectid using alignment based process mining evaluations
 Classifier: Programming Language :: Python :: 3.9
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
