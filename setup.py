@@ -7,9 +7,9 @@ def readme():
 
 
 setup(name='DA4RDM_Vis_ProcessBased',
-      version='0.1.7',
-      description='Test package to get visualisation for a given projectid as reference analyzed '
-                  'on different RDLC phase process models',
+      version='0.1.8',
+      description='Package to get visualisation of fitness values corresponding to RDLC phases for a reference projectid'
+                  'using alignment based process mining evaluations',
       long_description=readme(),
       classifiers=[
           "Programming Language :: Python :: 3.9",
